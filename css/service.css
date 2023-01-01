@@ -1,0 +1,35 @@
+
+
+/* blinking of the single dot */
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+.blink_service {
+    animation-name: blinker;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: linear;
+    color: #FF4800;
+} 
+
+.display_event_only {
+    width: 90%;
+    margin: 0px auto;
+    border: 1px solid red;
+}
+
+
+.display_event_only .card {
+    border: none;
+
+}
+
+#event_text {
+    font-size: 25px;
+    color: #FF4800;
+    margin-top: 20px;
+}

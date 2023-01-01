@@ -1,0 +1,91 @@
+
+
+/* page centralization */
+
+
+.new_events  {
+    width: 100%;
+    margin: 0px auto;
+}
+
+.new_events .container-fluid {
+    width: 95%;
+    margin: 7% auto;
+}
+
+
+/* styling events box */
+
+.new_content h1 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#line_red {
+    border: 5px solid #FF4800;
+    width: 50%;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+
+.new_content .text_area {
+    box-shadow: 2px 2px 5px 5px lightgray;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+
+.new_content #input_event {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    outline: none;
+    border: 0.5px solid lightgrey;
+    box-shadow: 2px 2px 5px 5px lightgray;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+#input_event::placeholder {
+    color: #FF4800;
+}
+
+#file_load {
+    box-shadow: 2px 2px 5px 5px lightgray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    border-radius: 5px;
+    color: #FF4800;
+    display: block;
+}
+
+
+#button {
+    width: 40%;
+    margin: 60px auto;
+}
+
+#button_event {
+    background-color: white;
+    color: #FF4800;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    border: 5px solid #FF4800;
+    outline: none;
+    transition: border .2s ease-in-out;
+    font-size: 20px;
+}
+
+#button_event:hover {
+    border: 0px solid #FF4800;
+    color: white;
+    background-color: #FF4800;
+}

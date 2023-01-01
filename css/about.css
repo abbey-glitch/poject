@@ -1,0 +1,21 @@
+
+
+/* making the dot blink */
+
+
+
+
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+.blink_dot {
+    animation-name: blinker;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: linear;
+    color: #FF4800;
+}

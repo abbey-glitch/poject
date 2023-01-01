@@ -1,0 +1,205 @@
+
+
+/* styling the image to look at the perfect screen size */
+
+#carousel_img {
+    height: 80vh;
+}
+
+@-webkit-keyframes zoom {
+    from {
+      -webkit-transform: scale(1, 1);
+    }
+    to {
+      -webkit-transform: scale(1.5, 1.5);
+    }
+  }
+  
+@keyframes zoom {
+from {
+    transform: scale(1, 1);
+}
+to {
+    transform: scale(1.5, 1.5);
+}
+}
+
+.carousel-inner .carousel-item > img {
+-webkit-animation: zoom 20s;
+animation: zoom 20s;
+animation-iteration-count: infinite;
+height: 200px;
+}
+
+.add_dime_img {
+    height: 85vh;
+    position: absolute;
+    background-color: rgb(0, 0, 0, 0.6);
+    top: 0px;
+    right: 0;
+    left: 0px;
+}
+
+.text_intro {
+    position: absolute;
+    top: 150px;
+    right: 0;
+    left: 0px;
+    width: 50%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.text_intro h3 {
+    color: white;
+    font-size: 100px;
+    opacity: 0;
+    color:#FF4800;
+}
+
+.text_intro h5 {
+    color: white;
+    font-size: 40px;
+    opacity: 0;
+}
+
+.some_space {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* centralization of my own styling */
+
+.info_about_prof {
+    width: 100%;
+    margin: 0px auto;
+}
+
+.info_about_prof .card {
+    border: none;
+}
+
+.info_about_prof .container-fluid {
+    width: 87%;
+    margin: 5% auto;
+}
+
+.info_about_text {
+    padding: 20px;
+    text-align: center;
+}
+
+.info_about_text h1 {
+    color: #FF4800;
+}
+
+.info_about_img {
+    box-shadow: 2px 2px 5px 5px lightgray;
+    border-radius: 5px;
+}
+
+.info_about_img img {
+    border-radius: 5px;
+}
+
+.check_img {
+    display: flex;
+}
+
+.check_img img {
+    flex-basis: 25%;
+}
+
+.check_img p {
+    flex-basis: 75%;
+    padding: 20px;
+}
+
+.ok_ok {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.display_max_one h1 {
+    text-align: center;
+    color: #FF4800;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.display_max_two h1 {
+    text-align: center;
+    color:   #FF4800; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.display_max_third h1 {
+    text-align: center;
+    color:   #FF4800; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.display_max_one p, .display_max_two p, .display_max_third p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+
+.display_max_one, .display_max_two, .display_max_third {
+    /* box-shadow: 2px 2px 5px 5px lightgrey; */
+    border-radius: 5px;
+    padding: 20px;
+}
+
+#link_to_max {
+    text-align: center;
+    width: 40%;
+    margin: 20px auto;
+    background-color: #FF4800;
+    padding: 20px 0px 20px 0px;
+    border-radius: 5px;
+}
+
+#link_to_max a {
+    color: white;
+    text-decoration: none;
+}
+
+.line_border {
+    border: 5px solid red;
+    width: 40%;
+    margin: 0px auto;
+}
+
+.profile_cv .card {
+    border: none;
+    background-color: rgb(231, 231, 231, 0);
+}
+
+
+.profile_one {
+    padding: 30px;
+    text-align: center;
+}
+
+.profile_one h1 {
+    color: #FF4800;
+}
+
+.profile_link {
+    background-color: #FF4800;
+    width: 50%;
+    margin: 0px auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.profile_link a {
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,84 @@
+
+
+/* centralization */
+
+#login_prof {
+    width: 100%;
+    margin: 0px auto;
+}
+
+
+.login_section {
+    display: flex;
+}
+
+.first_section {
+    flex-basis: 50%;
+    background-image: url("../img/point2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.second_section {
+    flex-basis: 50%;
+    margin-top: 10%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 0px auto;
+}
+
+input {
+    margin-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    outline: none;
+    border: 0.5px solid lightgray;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+input::placeholder {
+    color: #FF4800;
+}
+
+form h1 {
+    text-align: center;
+    padding-bottom: 30px;
+    color: #FF4800;
+}
+
+form button {
+    border: none;
+    background-color: #FF4800;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    outline-color: transparent;
+}
+
+@media (max-width: 672px) {
+
+    body {
+        background-image: url("../img/point2.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .second_section {
+        flex-basis: 100%;
+        margin-top: 20%;
+    }
+
+    .first_section {
+        flex-basis: 0%;
+    }
+}
